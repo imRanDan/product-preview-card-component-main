@@ -52,7 +52,7 @@ body {
 }
 
 .right-side h1 {
-   width: 90%;
+   max-width: 9ch;
    font-size: 2rem;
    color: hsl(212, 21%, 14%);
    text-transform: capitalize;
@@ -112,7 +112,7 @@ body {
       flex-direction: column;
       top: 10%;
       left: 3%;
-      height: 720px;
+      height: 750px;
       width: 350px;
       background-color: var(--white);
    }
