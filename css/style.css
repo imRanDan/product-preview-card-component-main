@@ -1,0 +1,86 @@
+* {
+   box-sizing: border-box;
+
+   /* Custom Colours */
+
+   --darkCyan: hsl(158, 36%, 37%);
+   --cream: hsl(30, 38%, 92%);
+   --veryDarkBlue: hsl(212, 21%, 14%);
+   --darkGrayishBlue: hsl(228, 12%, 48%);
+   --white: hsl(0, 0%, 100%);
+}
+
+
+
+body {
+   background-color: var(--cream);
+}
+
+.container {
+   display: flex;
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   background-color: var(--white);
+   border-radius: 10px;
+   width: 600px;
+   height: 450px;
+}
+
+.left-side {
+   float: left;
+   width: 50%;
+}
+
+.product-img {
+   width: 300px;
+   border-radius: 10px 0 0 10px;
+}
+
+.right-side {
+   float:left;
+   width: 50%;
+   padding: 30px 0 0 50px;
+   flex-direction: column;
+}
+
+.right-side .perfume{
+   color: grey;
+   text-transform: uppercase;
+}
+
+.right-side h1 {
+   width: 68%;
+   font-size: 30px;
+   text-transform: capitalize;
+}
+
+.right-side p {
+   width: 90%;
+   color: grey;
+   font-size: 14px;
+}
+
+.right-side .sale-price {
+   color: green;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.right-side .og-price {
+   text-decoration: line-through;
+}
+
+.right-side button {
+   background-color: green;
+   color: white;
+   display: flex;
+   outline: none;
+   padding: 10px;
+   border-radius: 10px;
+   width: 90%;
+   justify-content: center;
+}
+
+
+
