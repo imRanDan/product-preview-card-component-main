@@ -82,7 +82,7 @@ body {
 
 .right-side .og-price {
    display: flex;
-   color: 
+   color: hsl(228, 12%, 48%);
    text-decoration: line-through;
    margin-left: 25px;
    font-size: 14px;
